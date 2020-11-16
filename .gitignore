@@ -4,6 +4,7 @@
 # Exclude these files/folders, not needed
 
 # User-specific files
+.vs/
 *.suo
 *.user
 *.sln.docstates
@@ -119,6 +120,7 @@ ClientBin/
 ~$*
 *~
 *.dbmdl
+*.jfm
 # *.[Pp]ublish.xml
 *.pfx
 *.publishsettings
