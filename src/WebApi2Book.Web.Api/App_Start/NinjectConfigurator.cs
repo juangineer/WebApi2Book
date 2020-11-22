@@ -139,7 +139,7 @@ namespace WebApi2Book.Web.Api
         {
             var sessionFactory = Fluently.Configure()
                 .Database(
-                    MsSqlConfiguration.MsSql2008.ConnectionString(
+                    MsSqlConfiguration.MsSql2012.ConnectionString(
                         c => c.FromConnectionStringWithKey("WebApi2BookDb")))
                 .CurrentSessionContext("web")
                 .Mappings(m => m.FluentMappings.AddFromAssemblyOf<TaskMap>())
